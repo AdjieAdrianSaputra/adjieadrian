@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{ asset('plugins/fontawesome-free/css/all.min.css')}}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('dist/css/adminlte.min.css')}}">
+    @yield('css')
 </head>
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
@@ -291,5 +292,6 @@
 <script src="../../dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
+@yield('js')
 </body>
 </html>
